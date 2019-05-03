@@ -47,6 +47,14 @@ h3 {
 footer {
   background-color: #aaaaaa;
   height: 100px;
-  text-align: center;
   padding-top: 5px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.socialmedia {
+  text-align: center;
 }
