@@ -5,15 +5,27 @@ body {
 }
 
 header {
-  background-color: #717171;
+  background-color: #aaaaaa;
   height: 200px;
   padding-left: 5px;
   padding-top: 5px;
   /* Test */
 }
 
-header {
-  background-color: #aaaaaa;
+header img {
+  height: 120px;
+}
+
+nav {
+  position: absolute;
+  top: 150px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5em;
 }
 
 nav li {
@@ -23,13 +35,6 @@ nav li {
   border: 1px solid darkred;
   border-radius: 10px 10px 0px 0px;
   margin-right: 25px;
-}
-
-nav li a {
-  text-decoration: none;
-  color: white;
-  font-weight: 700;
-  font-size: 1.5em;
 }
 
 main {
@@ -46,15 +51,41 @@ h3 {
 
 footer {
   background-color: #aaaaaa;
-  height: 100px;
-  padding-top: 5px;
+  padding: 20px;
 }
 
 footer p {
   text-align: center;
-  font-size: 1.5em;
 }
 
 .socialmedia {
   text-align: center;
+}
+
+.fab {
+  background-color: darkred;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  border: 5px solid white;
+  border-radius: 100%;
+  color: white;
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.fa-facebook-f {
+  background-color: #3c5a99;
+}
+
+.fa-twitter {
+  background-color: #1dcaff;
+}
+
+.fa-youtube {
+  background-color: #ff0000;
+}
+
+.fa-linkedin-in {
+  background-color: #0077b5;
 }
